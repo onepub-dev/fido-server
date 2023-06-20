@@ -1,0 +1,25 @@
+[
+    {
+      "relation" : [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target" : {
+        "namespace" : "web",
+        "site" : "http://squarephone.biz:8080"
+      }
+    },
+    {
+      "relation" : [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target" : {
+        "namespace" : "android_app",
+        "package_name" : "dev.onepub.fido.client",
+        "sha256_cert_fingerprints" : [
+           "A2:C7:0B:FA:42:8B:1F:FC:88:A6:C1:B4:6E:41:2A:18:A5:3F:4D:47:36:4A:82:F8:CE:36:42:75:4F:91:A4:CA"
+        ]
+      }
+    }
+  ]
